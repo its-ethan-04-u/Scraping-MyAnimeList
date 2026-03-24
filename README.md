@@ -77,6 +77,9 @@ git clone https://github.com/its-ethan-04-u/Scraping-https-myanimelist.net-.git
 cd Scraping-https-myanimelist.net-
 pip install -r requirements.txt
 
+conda activate "env_name"/
+cd myanimelist/myanimelist/spider
+
 # Resume or restart the full crawl
 scrapy crawl myanimelist_full -o anime_new.csv -s JOBDIR=crawl/myanimelist_1
 ```
